@@ -11,9 +11,11 @@ const Footer = () => {
     <footer className="bg-cream py-16 border-t border-forest/10">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="text-center md:text-left">
-          <div className="font-serif text-2xl font-medium text-forest tracking-tight mb-2">
-            Maison IA Studio
-          </div>
+          <img 
+            src="https://image.noelshack.com/fichiers/2026/02/4/1767870866-whatsapp-image-2026-01-08-at-12-13-39.jpeg" 
+            alt="Maison IA Studio" 
+            className="h-10 md:h-12 w-auto object-contain mb-4 mx-auto md:mx-0"
+          />
           <p className="text-charcoal/50 text-sm">{t.copyright}</p>
         </div>
         

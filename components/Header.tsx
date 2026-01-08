@@ -39,9 +39,12 @@ const Header = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <a href="#" className="font-serif text-2xl lg:text-3xl font-medium text-forest tracking-tight flex items-center gap-3 group">
-            <span className="w-3 h-3 rounded-full bg-terracotta group-hover:scale-125 transition-transform duration-300"></span>
-            <span>Maison IA Studio</span>
+          <a href="#" className="flex items-center gap-4 group">
+            <img 
+              src="https://image.noelshack.com/fichiers/2026/02/4/1767870866-whatsapp-image-2026-01-08-at-12-13-39.jpeg" 
+              alt="Maison IA Studio" 
+              className="h-8 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            />
             <div className="hidden sm:flex items-center gap-1 px-2 py-0.5 rounded-full bg-forest/5 border border-forest/10 text-[10px] uppercase tracking-widest text-forest/70 font-sans font-bold">
               <MapPin size={10} className="text-terracotta" />
               Bali
